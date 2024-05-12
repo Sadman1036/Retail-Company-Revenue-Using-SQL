@@ -56,5 +56,18 @@ SQL functions that I used in this project:
 * Question: How do discounts affect revenue generation for different products?
 * Function Used: SUM() to calculate total revenue and FORMAT() to format the output.
 * Query Explanation: This query evaluates the effect of discounts on revenue for each product by joining the info and finance tables, grouping the results by product and discount, and sorting them by product and discount.
+* 
+
+## Analaysis Summary
+
+* Adidas significantly outperforms Nike in total revenue, with Adidas earning over $11 million compared to Nike's approximately $802,000. 
+  This indicates Adidas has a stronger market presence or sales performance in the dataset provided.
+* Adidas also leads in average ratings, scoring 3.37 compared to Nike's 2.79. This suggests that not only does Adidas have higher sales, 
+  but their products are generally better received according to customer reviews.
+* Products priced over $150 have the highest average ratings, followed closely by those in the $101-150 range. Products priced at $0-50 have the lowest average ratings, which could indicate that higher-priced items are perceived as better quality or more satisfactory.
+* Among Adidas products, the "Unisex Originals CRAIG GREEN KONTUUR II SHOES" leads in revenue, suggesting high popularity or higher pricing. This highlights successful product lines that might warrant further marketing emphasis or stock investment.
+* Query results show that for Adidas, higher discounts (specifically a discount rate of 0.4 and 0.5) correlate with substantial increases in revenue, suggesting that strategic discounts can effectively boost sales. For Nike, no discounts have been applied, which may be an area for potential growth through promotional strategies.
+  
+
 
 
