@@ -3,8 +3,8 @@ The imported data was converted from text to numeric values for the columns:
 	listing_price,
     sale_price,
     discount,
-    revenue
-*/
+    revenue*/
+  
 DESCRIBE finance;
 USE Online_retail_store;
 
@@ -94,3 +94,37 @@ GROUP BY
 ORDER BY
     total_revenue DESC
 LIMIT 10;
+
+/* How does the combination of discounts offered by different brands influence the total revenue generated from sales? */
+SELECT
+    brands.brand,
+    finance.discount,
+    FORMAT(SUM(finance.revenue),2) AS total_revenue
+FROM
+    brands
+JOIN
+    finance ON brands.product_id = finance.product_id
+GROUP BY
+    brands.brand,
+    finance.discount
+ORDER BY
+    brands.brand,
+    finance.discount;
+    
+/* How does the combination of discounts offered for different products influence the total revenue generated from sales? */
+SELECT
+    info.product,
+    finance.discount,
+    FORMAT(SUM(finance.revenue),2) AS total_revenue
+FROM
+    info
+JOIN
+    finance ON info.product_id = finance.product_id
+GROUP BY
+    info.product,
+    finance.discount
+ORDER BY
+    info.product,
+    finance.discount;
+
+
