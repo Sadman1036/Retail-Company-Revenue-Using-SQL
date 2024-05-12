@@ -5,7 +5,7 @@ The goal of this project is to improve revenue of online Retail Company and prod
 
 In this project, i’ll will work with numeric, string, and timestamp data on pricing and revenue, ratings, reviews, descriptions, and website traffic.
 
-SQL FUNCTION :
+### SQL FUNCTION :
 SQL functions that I used in this project:
 
 Aggregate functions: These functions facilitate the calculation of values across multiple rows of data, including operations like sum, average, and count.
