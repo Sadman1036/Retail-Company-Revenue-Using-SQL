@@ -1,6 +1,6 @@
 # Retail-Company-Revenue-Using-SQL
 
-Objective :
+## Objective :
 The goal of this project is to improve revenue of online Retail Company and produce recommendations for its marketing and sales teams.
 
 In this project, i’ll will work with numeric, string, and timestamp data on pricing and revenue, ratings, reviews, descriptions, and website traffic.
