@@ -1,9 +1,13 @@
 /*
-The imported data was converted from text to numeric values for the columns:
-	listing_price,
+The imported data was converted from text to numeric values for the following columns:
+    listing_price,
     sale_price,
     discount,
-    revenue*/
+    revenue.
+
+Data was imported from my local system using the Table Data Import Wizard.
+*/
+
   
 DESCRIBE finance;
 USE Online_retail_store;
