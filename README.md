@@ -1,4 +1,4 @@
-# Retail-Company-Revenue-Using-SQL
+# Online-Retail-Company-Sales-Analysis-Using-SQL
 
 ### Objective :
 The objective of the entire analysis is to gain insights into the product performance, customer satisfaction, and market influence of brands by analyzing sales data, product ratings, and brand information
