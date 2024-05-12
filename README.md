@@ -42,4 +42,19 @@ SQL functions that I used in this project:
 * Question: What are the top revenue-generated products for each brand?
 * Function Used: SUM() to calculate the total revenue generated.
 * Query Explanation: This query joins the brands, info, and finance tables to identify the top revenue-generated products for each brand by
-  summing up the revenue for each product, providing insights into the top-performing products within each brand's portfo
+  summing up the revenue for each product, providing insights into the top-performing products within each brand's portfolio
+
+
+### Impact of Discounts on Revenue by Brand
+
+* Question: How does the combination of discounts offered by different brands influence the total revenue generated?
+* Function Used: SUM() to calculate total revenue and FORMAT() to format the output.
+* Query Explanation: The query assesses how different discounts impact total revenue by brand. It joins the brands and finance tables, groups the results by brand and discount, and sorts them by brand and discount.
+
+### Impact of Discounts on Revenue by Product
+
+* Question: How do discounts affect revenue generation for different products?
+* Function Used: SUM() to calculate total revenue and FORMAT() to format the output.
+* Query Explanation: This query evaluates the effect of discounts on revenue for each product by joining the info and finance tables, grouping the results by product and discount, and sorting them by product and discount.
+
+
