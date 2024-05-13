@@ -56,7 +56,6 @@ SQL functions that I used in this project:
 * Question: How do discounts affect revenue generation for different products?
 * Function Used: SUM() to calculate total revenue and FORMAT() to format the output.
 * Query Explanation: This query evaluates the effect of discounts on revenue for each product by joining the info and finance tables, grouping the results by product and discount, and sorting them by product and discount.
-* 
 
 ## Analaysis Summary
 
